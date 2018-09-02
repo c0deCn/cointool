@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?v6e8ae');
-  src:  url('fonts/icomoon.eot?v6e8ae#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?v6e8ae') format('truetype'),
-    url('fonts/icomoon.woff?v6e8ae') format('woff'),
-    url('fonts/icomoon.svg?v6e8ae#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?4r6h4k');
+  src:  url('fonts/icomoon.eot?4r6h4k#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4r6h4k') format('truetype'),
+    url('fonts/icomoon.woff?4r6h4k') format('woff'),
+    url('fonts/icomoon.svg?4r6h4k#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-wechat:before {
+  content: "\ea77";
+}
 .icon-add-to-list:before {
   content: "\e900";
 }
@@ -1149,4 +1152,3 @@
 .icon-youtube:before {
   content: "\ea76";
 }
-
