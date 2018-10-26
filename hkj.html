@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang=zh-CN>
+  
+  <head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <title>黑科技 - ETH黑科技</title>
+    <meta name=description content="ETH黑科技是一个批量撸项目方的合约，搞死项目方自己做庄!">
+    <meta name=keywords content="ETH黑科技,黑科技,ETH批量转账">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://www.bootcdn.cn/assets/css/site.min.css?1539831015266" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  
+  <body class=home-template>
+    <header class=site-header>
+      <nav class="navbar navbar-static-top main-navbar" id=top>
+        <div class=container>
+          <div class=navbar-header>
+            <button class="navbar-toggle collapsed" type=button data-toggle=collapse data-target=#bs-navbar aria-controls=bs-navbar aria-expanded=false>
+              <span class=sr-only>Toggle navigation</span>
+              <span class=icon-bar></span>
+              <span class=icon-bar></span>
+              <span class=icon-bar></span>
+            </button>
+            <a href=/ class="navbar-brand text-hide" onclick="_hmt.push(['_trackEvent', 'main-navbar', 'click', 'main-navbar-bootcdn'])">eTETHBB</a></div>
+          <nav id=bs-navbar class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="http://www.ethbb.com" onclick="_hmt.push(['_trackEvent', 'main-navbar', 'click', 'api'])" target=_blank>ETHBB</a></li>
+                <a href=#about onclick="_hmt.push(['_trackEvent', 'main-navbar', 'click', 'about'])">关于</a></li>
+            </ul>
+          </nav>
+        </div>
+      </nav>
+      <div class="container jumbotron">
+        <div class=row>
+          <div class=col-xs-12>
+            <h1>ETH黑科技</h1>
+            <p>稳定、快速、自己坐庄!
+              <br>
+              <span class=package-amount>ETH黑科技
+                <strong>合约</strong>地址 (注意 gas Limit 必须设置为4000000以上)</span></p>
+            <div class=search-wraper role=search>
+              <div class=form-group>
+                <input class="form-control search clearable" placeholder="0x5ccb6f1526ae486e16fcc0f0a3f2415057a832e0" value="0x5ccb6f1526ae486e16fcc0f0a3f2415057a832e0" autocomplete=off autofocus tabindex=0 autocorrect=off autocapitalize=off spellcheck=false>
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main class=packages-list-container id=all-packages>
+      <div class=container>
+        <div class="list-group packages" id=common-packages>
+          <a href="#" class="package list-group-item" >
+            <div class=row>
+              <div class=col-md-3>
+                <h4 class=package-name>QMQ(Gas Limit : 4000000)</h4></div>
+              <div class="col-md-9 hidden-xs">
+                <p class=package-description>发送ETH 0.001001 到黑科技合约地址 (Gas Limit : 4000000)</p></div>
+              <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+                <span>
+                  <i class="fa fa-star"></i>发送ETH 0.001001 到黑科技合约地址撸30个账号</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="package list-group-item" >
+            <div class=row>
+              <div class=col-md-3>
+                <h4 class=package-name>SOS(Gas Limit : 4000000)</h4></div>
+              <div class="col-md-9 hidden-xs">
+                <p class=package-description>发送ETH 0.001002 到黑科技合约地址 (Gas Limit : 4000000)</p></div>
+              <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+                <span>
+                  <i class="fa fa-star"></i>发送ETH 0.001002 到黑科技合约地址撸30个账号</span>
+              </div>
+            </div>
+          </a>
+		  
+          <a href="#" class="package list-group-item" >
+            <div class=row>
+              <div class=col-md-3>
+                <h4 class=package-name>FNK(Gas Limit : 4000000)</h4></div>
+              <div class="col-md-9 hidden-xs">
+                <p class=package-description>发送ETH 0.001003 到黑科技合约地址 (Gas Limit : 4000000)</p></div>
+              <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+                <span>
+                  <i class="fa fa-star"></i>发送ETH 0.001003 到黑科技合约地址撸30个账号</span>
+              </div>
+            </div>
+          </a>
+	</div>
+        <div class="list-group packages" id=search-results style="display: none"></div>
+      </div>
+    </main>
+    <footer id=footer class="footer hidden-print">
+      <div class=container>
+        <div class=row>
+          <div class="footer-about col-md-5 col-sm-12" id=about>
+            <h4>关于 ETH黑科技</h4>
+            <p>ETH黑科技 是
+             帮助大家打到狗庄自己成为庄的利器!</p>
+            <p>反馈或添加合约请到 ethbb.com 扫描站长微信</p>
+          </div>
+          <div class="footer-links col-md-3 col-sm-12">
+            <h4>友情链接</h4>
+            <ul class="list-unstyled list-inline">
+              <li>
+                <a href=http://ethbb.com/ target=_blank >ethbb</a></li>
+              <li>
+            </ul>
+          </div>
+          <div class="footer-techs col-md-2 col-sm-12">
+            <h4>我们用到的技术</h4>
+            <ul class="list-unstyled list-inline">
+              <li>
+                <a href=http://www.bootcss.com/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-bootcss.com'])">Bootstrap</a></li>
+              <li>
+                <a href=http://www.ghostchina.com/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-ghostchina.com'])">Ghost</a></li>
+              <li>
+                <a href=https://www.jquery123.com/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-jquery123.com'])">jQuery</a></li>
+              <li>
+                <a href=https://babel.bootcss.com/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-babeljs.cn'])">Babeljs</a></li>
+              <li>
+                <a href=http://lodashjs.com/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-lodashjs.com'])">Lodash</a></li>
+              <li>
+                <a href=https://www.nodeapp.cn/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-nodeapp.cn'])">Node.js</a></li>
+              <li>
+                <a href=http://www.gruntjs.net/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-gruntjs.net'])">Grunt</a></li>
+              <li>
+                <a href=https://www.gulpjs.com.cn/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-gulpjs.com.cn'])">Gulp</a></li>
+              <li>
+                <a href=https://www.npmjs.com.cn/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-npmjs.com.cn'])">NPM</a></li>
+              <li>
+                <a href=https://www.webpackjs.com/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-webpackjs-com'])">webpack</a></li>
+              <li>
+                <a href=http://www.rollupjs.com/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-rollupjs-com'])">Rollup</a></li>
+              <li>
+                <a href=https://www.parceljs.cn/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-parceljs-cn'])">Parcel</a></li>
+              <li>
+                <a href=https://www.postcss.com.cn/ target=_blank onclick="_hmt.push(['_trackEvent', 'footer', 'click', 'footer-postcss-com-cn'])">PostCSS</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class=copy-right>
+        <span>&copy; 2013-2018</span>
+        <span>托管于Github</span></div>
+    </footer>
+    <a href=# id=back-to-top>
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <script src=https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/@msmiley/geopattern@1.2.3-1/js/geopattern.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/clipboard@1.5.16/dist/clipboard.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/localforage@1.4.2/dist/localforage.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js></script>
+  </body>
+
+</html>
